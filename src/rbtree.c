@@ -12,7 +12,7 @@ int inorder(node_t *cur, key_t *arr, const rbtree *t, int i, size_t n);
 
 rbtree *new_rbtree(void) {
   rbtree *p = (rbtree *)calloc(1, sizeof(rbtree));
-  // TODO: initialize struct if needed
+  // TODO: initialize struct if needed.
   node_t *nil = (node_t *)calloc(1, sizeof(node_t));
   nil->color = RBTREE_BLACK;
 
